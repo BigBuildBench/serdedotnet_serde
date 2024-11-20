@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <IsPackable>false</IsPackable>
+    <DebugType>embedded</DebugType>
+    <IsTrimmable>true</IsTrimmable>
+    <EnableAotAnalyzer>true</EnableAotAnalyzer>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <!-- Suppress warnings about missing documentation. -->
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Version>0.7.0</Version>
+  </PropertyGroup>
+
+</Project>
